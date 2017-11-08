@@ -8,69 +8,48 @@ namespace Banco
     {
         static void Main(string[] args)
         {
-            Validacao validacao = new Validacao();
-
-            /*bool cpfvalido = false;
-            string cpf = "";
-
+            string opcao = "";
+            //Menu principal
             do{
-                //Pede o cpf para o usuário
-                Console.WriteLine("Informe seu CPF");
-                //Recebe o cpf do usuário
-                cpf = Console.ReadLine();
+                Console.WriteLine("Digite a opção: ");
+                Console.WriteLine("1 - Cadastrar Conta");
+                Console.WriteLine("2 - Sacar");
+                Console.WriteLine("3 - Depositar");
+                Console.WriteLine("9 - Sair");
 
-                //Recebe o retorno do método Validar CPF
-                cpfvalido = validacao.ValidarCPF(cpf);
+                opcao = Console.ReadLine();
 
-                //Caso seja um cpf inválido informa ao usuário
-                if(cpfvalido == false){
-                    Console.WriteLine("CPF inválido");
+                switch (opcao)
+                {
+                    case "1":
+                        CadastrarConta();
+                        break;
                 }
-            } while (cpfvalido == false); //Faça enquanto cpf inválido
+            }while(opcao != "9");
+        }
 
-            Console.WriteLine("CPF válido");*/
+        
 
-            //string doc = validacao.pedirCPF();
+        static void CadastrarConta(){
+            Console.Write("Digite a Razão Social: ");
+            string razaosocial = Console.ReadLine();
 
-            /*//Cria o objeto da conta
-            Conta conta = new Conta();
+            Console.Write("Digite a data da abertura: ");
+            string dataabertura = Console.ReadLine();
 
-            //Deposita valor na conta
-            conta.Depositar(100.00);
+            string cnpj = new Validacao().pedirCNPJ();
+            
+            Console.Write("Digite seu número de conta: ");
+            string numeroconta = Console.ReadLine();
 
-            //Imprime saldo atual
-            Console.WriteLine("Seu saldo é: " + conta.Saldo);
+            Console.Write("Digite a agencia: ");
+            string agencia = Console.ReadLine();
 
-            conta.Depositar(100.00);
-            //Imprime saldo atual
-            Console.WriteLine("Seu saldo é: " + conta.Saldo);
+            Console.Write("Digite o Saldo: ");
+            double saldo = Convert.ToDouble(Console.ReadLine());
 
-            conta.Sacar(50.00);
-
-            //Mostra o saldo para usuário
-            Console.WriteLine("Seu saldo é: " + conta.Saldo);*/
-
-            ContaPessoaFisica contapf = new ContaPessoaFisica();
-            contapf.Sacar(50.00);
-
-            //Mostra o saldo para o usuário
-            Console.WriteLine("O seu saldo é: " + contapf.Saldo);
-
-            contapf.Depositar(1000000.00);
-
-            //Mostra o saldo para o usuário
-            Console.WriteLine("O seu saldo é: " + contapf.Saldo);
-
-            ContaPessoaJuridica contapj = new ContaPessoaJuridica();
-            contapj.Depositar(500.00);
-            //Mostra o saldo para o usuário
-            Console.WriteLine("O seu saldo é: " + contapj.Saldo);
-
-            contapj.Sacar(50.00);
-            //Mostra o saldo para o usuário
-            Console.WriteLine("O seu saldo é: " + contapj.Saldo);
-
-
+            ContaPessoaJuridica conta = new ContaPessoaJuridica();
+            conta.CadastrarConta(numeroconta, agencia, saldo, razaosocial, Convert.ToDateTime(dataabertura), cnpj);
         }
     }
 }

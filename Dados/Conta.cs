@@ -25,7 +25,5 @@ namespace Dados
             this.Saldo += Valor;
             return this.Saldo;
         }
-
-        
     }
 }

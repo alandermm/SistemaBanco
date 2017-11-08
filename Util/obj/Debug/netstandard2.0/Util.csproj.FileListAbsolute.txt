@@ -6,3 +6,11 @@ c:\Users\01317235614\backend\banco2\Util\obj\Debug\netstandard2.0\Util.AssemblyI
 c:\Users\01317235614\backend\banco2\Util\obj\Debug\netstandard2.0\Util.AssemblyInfo.cs
 c:\Users\01317235614\backend\banco2\Util\obj\Debug\netstandard2.0\Util.dll
 c:\Users\01317235614\backend\banco2\Util\obj\Debug\netstandard2.0\Util.pdb
+C:\Users\01317235614\backend\SistemaBanco\Util\bin\Debug\netstandard2.0\Util.deps.json
+C:\Users\01317235614\backend\SistemaBanco\Util\bin\Debug\netstandard2.0\Util.dll
+C:\Users\01317235614\backend\SistemaBanco\Util\bin\Debug\netstandard2.0\Util.pdb
+C:\Users\01317235614\backend\SistemaBanco\Util\obj\Debug\netstandard2.0\Util.csproj.CoreCompileInputs.cache
+C:\Users\01317235614\backend\SistemaBanco\Util\obj\Debug\netstandard2.0\Util.AssemblyInfoInputs.cache
+C:\Users\01317235614\backend\SistemaBanco\Util\obj\Debug\netstandard2.0\Util.AssemblyInfo.cs
+C:\Users\01317235614\backend\SistemaBanco\Util\obj\Debug\netstandard2.0\Util.dll
+C:\Users\01317235614\backend\SistemaBanco\Util\obj\Debug\netstandard2.0\Util.pdb

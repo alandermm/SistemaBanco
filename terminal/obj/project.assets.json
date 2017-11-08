@@ -679,13 +679,13 @@
     },
     "Dados/1.0.0": {
       "type": "project",
-      "path": "c:\\Users\\01317235614\\backend\\banco2\\Dados\\Dados.csproj",
-      "msbuildProject": "c:\\Users\\01317235614\\backend\\banco2\\Dados\\Dados.csproj"
+      "path": "../Dados/Dados.csproj",
+      "msbuildProject": "../Dados/Dados.csproj"
     },
     "Util/1.0.0": {
       "type": "project",
-      "path": "c:\\Users\\01317235614\\backend\\banco2\\Util\\Util.csproj",
-      "msbuildProject": "c:\\Users\\01317235614\\backend\\banco2\\Util\\Util.csproj"
+      "path": "../Util/Util.csproj",
+      "msbuildProject": "../Util/Util.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -702,11 +702,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\01317235614\\backend\\banco2\\terminal\\terminal.csproj",
+      "projectUniqueName": "C:\\Users\\01317235614\\backend\\SistemaBanco\\terminal\\terminal.csproj",
       "projectName": "terminal",
-      "projectPath": "C:\\Users\\01317235614\\backend\\banco2\\terminal\\terminal.csproj",
+      "projectPath": "C:\\Users\\01317235614\\backend\\SistemaBanco\\terminal\\terminal.csproj",
       "packagesPath": "C:\\Users\\01317235614\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\01317235614\\backend\\banco2\\terminal\\obj\\",
+      "outputPath": "C:\\Users\\01317235614\\backend\\SistemaBanco\\terminal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -723,11 +723,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "c:\\Users\\01317235614\\backend\\banco2\\Dados\\Dados.csproj": {
-              "projectPath": "c:\\Users\\01317235614\\backend\\banco2\\Dados\\Dados.csproj"
+            "C:\\Users\\01317235614\\backend\\SistemaBanco\\Dados\\Dados.csproj": {
+              "projectPath": "C:\\Users\\01317235614\\backend\\SistemaBanco\\Dados\\Dados.csproj"
             },
-            "c:\\Users\\01317235614\\backend\\banco2\\Util\\Util.csproj": {
-              "projectPath": "c:\\Users\\01317235614\\backend\\banco2\\Util\\Util.csproj"
+            "C:\\Users\\01317235614\\backend\\SistemaBanco\\Util\\Util.csproj": {
+              "projectPath": "C:\\Users\\01317235614\\backend\\SistemaBanco\\Util\\Util.csproj"
             }
           }
         }
